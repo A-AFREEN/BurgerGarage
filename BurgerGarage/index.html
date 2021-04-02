@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Burger Garage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <!-- /*Header*/ -->
+<header>
+<nav id="header-nav" class="navbar navbar-default">
+  <div class="container">
+
+    <!-- /******logo****/ -->
+    <div class="navbar-header">  
+      <a href="index.html" class="pull-left visible-md visible-lg"></a>
+      <div id="logo-img" alt="Logo_Image"></div>
+    </div>
+
+    <div class="navbar-brand">
+      <a href="index.html"><h1>Burger Garage</h1></a>
+    </div>
+
+    <!-- When we minimize the screen to xs -->
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+    <div id="collapsable-nav" class="collapse navbar-collapse">
+      <ul id="nav-list" class="nav navbar-nav navbar-right">
+        <li class="visible-xs active">
+            <a href="index.html">
+              <span class="glyphicon glyphicon-home"></span>Home
+            </a>
+        </li>
+        
+        <li>
+      <a href="menu-categories.html"
+         <span class="glyphicon glyphicon-cutlery"> </span><br class="hidden-xs">Menu</a>
+         </li>
+
+         <li>
+          <a href="#"
+             <span class="glyphicon glyphicon-info-sign"> </span><br class="hidden-xs">About</a>
+             </li>
+
+          <li id="phone" class="hidden-xs">
+            <a href="tel:8074321655"><span>8074321655</span></a>
+              <div>We Deliver</div>
+          </li> 
+
+        </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+<!-- When we minimize the screen to xs -  phone number, we deliver -->
+<div id="call-btn" class="visible-xs">
+  <a class="btn" href="tel:8074321655">
+    <span class="glyphicon glyphicon-earphone"></span>8074321655</a>
+</div>
+<div id="xs-deliver" class="text-center visible-xs">We Deliver</div>
+<!-- End of the Header -->
+
+<!-- Main Start -->
+
+<!-- Background Image -->
+<div id="main-content" class="container">
+  <div class="jumbotron">
+    <img src="images/BackgroundImage.PNG" alt="Picture of restaurant"
+     class="img-responsive visible-xs">
+  </div>
+
+<!-- Home Titles- Menu, Specials, Map -->
+  <div id="home-titles" class="row">
+
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <a href="menu-categories.html"><div id="menu-title"><span>Menu</span></div></a>
+    </div> 
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <a href="specials.html"><div id="specials-title"><span>Specials</span></div></a>
+    </div>
+    <div class="col-md-4 col-sm-12 col-xs-12">
+      <a href="https://goo.gl/maps/QYuwvYZzzN9pKBWN6" target="blank">
+        <div id="map-title">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.1288507653153!2d78.40596831470341!3d17.405602988067734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDI0JzIwLjIiTiA3OMKwMjQnMjkuNCJF!5e0!3m2!1sen!2sin!4v1617110530200!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <span>Map</span></div></a>
+    </div>
+  </div>
+</div>
+<!-- End of main content -->
+
+<!-- Footer -->
+<footer class="panel-footer">
+  <div class="container">
+    <div class="row">
+
+      <section id="hours" class="col-sm-4">
+        <span>Hours:</span><br>
+        Sun-Thurs: 10:00am - 11.30pm<br>
+        Sat: 11:00am - 3:00pm<br>
+        Friday Closed.
+        <hr class="visible-xs">
+      </section>
+
+      <section id="address" class="col-sm-4">
+      <span>Address:</span><br>
+      Sabza Colony<br>
+      Lane 2, Tolichowki<br>
+      Hyderabad.
+       <p> *Delivery area within 7km with the delivery charge of 150/-</p>
+       <hr class="visible-xs">
+      </section>
+
+      <section id="testimonals" class="col-sm-4">
+        <p>"I really love coming to this place!! It's my favourite place to eat for weekends."</p>
+        <p> "Fan of their food. Great Service!!"</p>
+      </section>
+      
+    </div>
+
+    <div class="text-center">
+      &copy; Copyright Burger Garage 2019
+    </div>
+    
+  </div>
+</footer>
+<!-- End of Footer -->
+
+</body>
+</html>
